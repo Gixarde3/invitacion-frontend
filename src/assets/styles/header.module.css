@@ -1,0 +1,74 @@
+.flor{
+    position: absolute;
+    top: -100px;
+    height: 200px;
+    width: 400px;
+}
+
+.flor1{
+    transform: rotate(-25deg);
+    left: -260px;
+}
+
+.flor2{
+    transform:scaleX(-1) rotate(-25deg);
+    right: -260px;
+}
+
+.counter{
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 125px);
+    clip-path: path('M215.34095835790725,0C96.41143104288716,0 0,57.30755202165844 0,128C0,198.69244797834153 96.41143104288712,256 215.3409583579072,256C334.27048567292735,256 430.68191671581445,198.6924479783416 430.6819167158145,128C430.6819167158145,57.30755202165848 334.2704856729274,0 215.3409583579073,0Z');
+    background: rgb(244, 203, 109); width: 430.682px; height: 256px; transform: scale(0.5625, 0.5625); transform-origin: 0px 0px;
+
+    & h2{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px; 
+        font-weight: 700; 
+        font-style: normal; 
+        color: rgb(194, 126, 71); 
+        font-kerning: none; 
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        width: max-content;
+    }
+    & p{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px; 
+        font-weight: 700; 
+        font-style: normal; 
+        color: rgb(194, 126, 71); 
+        font-kerning: none; 
+        text-decoration: none;
+    }
+    & h3{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px; 
+        font-weight: 700; 
+        font-style: normal; 
+        color: rgb(121, 70, 30);        
+        font-kerning: none; 
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        width: max-content;
+    }
+}
+
+.header{
+    width: 100dvw;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}

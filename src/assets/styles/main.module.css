@@ -1,0 +1,99 @@
+.introBaby{
+    font-size: 19.9999px; 
+    color: rgb(121, 70, 30); 
+    line-height: 22px; 
+    letter-spacing: 1.93999px; 
+}
+.bee1{
+    position:absolute;
+    width: 68.7129px; 
+    height: 69.5309px; 
+    top: -63px;
+    right: -30px;
+    transform: translate(-50%, 0px) scaleX(-1) rotate(8deg);
+}
+
+.bee2{
+    position:absolute;
+    width: 68.7129px; 
+    height: 69.5309px; 
+    transform: translate(-145px, 320px) scaleX(-1) rotate(-12deg);
+}
+
+.bee3{
+    position:absolute;
+    width: 68.7129px; 
+    height: 69.5309px; 
+    bottom: -51px;
+    right: -30px;
+    transform: translate(-50%, 0px) scaleX(-1) rotate(3deg);
+}
+
+.bee4{
+    position:absolute;
+    width: 68.7129px; 
+    height: 69.5309px; 
+    bottom: -53px;
+    left: -35px;
+    transform: translate(-50%, 0px) rotate(3deg);
+}
+
+.sello {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #ffd42c;
+    border: 1px solid rgb(121, 70, 30);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & div {
+        width: 50px;
+        height: 43px;
+        background-color: rgb(121, 70, 30);
+        clip-path: polygon(
+            25% 0%,
+            75% 0%,
+            100% 50%,
+            75% 100%,
+            25% 100%,
+            0% 50%
+        );
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 1rem;
+
+    & label{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(121, 70, 30);
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        & input[type="text"], input[type="number"]{
+            background-color: #ffd42c;
+            border: 1px solid rgb(121, 70, 30);
+            font-size: 16px;
+            font-family: 'KulachatSerif', sans-serif;
+        }
+    }
+
+    & h2{
+        font-size: 19.9999px; 
+        color: rgb(121, 70, 30); 
+        line-height: 22px; 
+        letter-spacing: 1.93999px; 
+    }
+}

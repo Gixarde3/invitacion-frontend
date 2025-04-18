@@ -1,0 +1,34 @@
+
+@font-face {
+  font-family: 'KulachatSerif';
+  src: url('./assets/fonts/KulachatSerif.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KulachatSerif';
+  src: url('./assets/fonts/KulachatSerifBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body{
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  background-color: #f7ead4;
+  font-family: 'KulachatSerif', sans-serif;
+  font-size: 29.3331px;
+  font-weight: 400;
+}
+div#root{
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
