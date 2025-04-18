@@ -44,7 +44,7 @@ function Main() {
         e.preventDefault();
         setConfirmed(!confirmed);
         try{
-            const response = await axios.post("http://localhost:3000/confirmAsistencia", guests);
+            const response = await axios.post("https://invitacion-backend-emrq.vercel.app/confirmAsistencia", guests);
             if (response.status === 200) {
                 setErrorMsg("Asistencia confirmada, ¡gracias!");
                 setConfirmed(true);
