@@ -1,4 +1,4 @@
-import footerStyle from '../assets/styles/Footer.module.css';
+import footerStyle from '../assets/styles/footer.module.css';
 
 function Footer() {
     return (

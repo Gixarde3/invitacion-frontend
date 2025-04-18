@@ -1,4 +1,4 @@
-import headerStyle from '../assets/styles/Header.module.css';
+import headerStyle from '../assets/styles/header.module.css';
 import headerImg from '../assets/img/header.svg';
 import { useEffect, useState } from 'react';
 function Header() {
