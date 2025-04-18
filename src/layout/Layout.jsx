@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import generalesStyle from '../assets/styles/Generales.module.css';
+import generalesStyle from '../assets/styles/generales.module.css';
 function Layout({children}) {
     return (
     <>
