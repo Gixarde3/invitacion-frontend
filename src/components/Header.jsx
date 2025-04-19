@@ -40,7 +40,7 @@ function Header() {
             <div className={headerStyle.counter}>
                 <h3>CONTADOR</h3>
                 <h2>07 | 06 | 2025</h2>
-                <p>{diff.days}:{diff.hours}:{diff.minutes}:{diff.seconds}</p>
+                <p>{time.days}:{time.hours}:{time.minutes}:{time.seconds}</p>
             </div>
             <img src={headerImg} className={headerStyle.flor1 + " " + headerStyle.flor}/>
             <img src={headerImg} className={headerStyle.flor2 + " " + headerStyle.flor}/>
